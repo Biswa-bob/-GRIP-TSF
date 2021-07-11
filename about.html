@@ -1,189 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - TSF</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="script.js" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - BobStore </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="script.js">
-</head>
-
-<body>
-
+  <body>
     <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="img/logo.png" alt="" width="125px"></a>
-                </div>
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-                <img src="img/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
-            </div>
-            <h1 class="title">About Us</h1>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Rebuilt One Life <br />At A Time !</h1>
-                    <h2>Our Mission</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit corrupti aspernatur quia
-                        repudiandae harum aut, nostrum dolorum libero! Iure eveniet earum unde saepe et natus repellat
-                        nulla quo reprehenderit distinctio.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, soluta eligendi sapiente amet
-                        animi at tempora magni laboriosam quibusdam accusamus perspiciatis. Placeat, maxime? Omnis
-                        cupiditate quidem sequi consequuntur sit enim!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis veritatis asperiores
-                        voluptate? Magni perferendis ipsum cupiditate quas, a voluptate ducimus, similique officia unde
-                        molestiae, impedit sint non inventore optio?</p>
-
-                </div>
-                <!-- sliders -->
-                <div class="col-2">
-                    <img src="img/image1.png" alt="">
-                </div>
-            </div>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="img/logo.png" alt="" width="125px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <img
+            src="img/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
         </div>
+        <h1 class="title">About Us</h1>
+        <div class="row">
+          <div class="col-2">
+            <h1>Rebuilt One Life <br />At A Time !</h1>
+            <h2>Our Mission</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti aspernatur quia repudiandae harum aut, nostrum dolorum
+              libero! Iure eveniet earum unde saepe et natus repellat nulla quo
+              reprehenderit distinctio.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
+              soluta eligendi sapiente amet animi at tempora magni laboriosam
+              quibusdam accusamus perspiciatis. Placeat, maxime? Omnis
+              cupiditate quidem sequi consequuntur sit enim!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              nobis veritatis asperiores voluptate? Magni perferendis ipsum
+              cupiditate quas, a voluptate ducimus, similique officia unde
+              molestiae, impedit sint non inventore optio?
+            </p>
+          </div>
+          <!-- sliders -->
+          <div class="col-2">
+            <img src="img/image1.png" alt="" class="animated" />
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Scroll Up Button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-circle-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-chevron-circle-up"></i>
+    </button>
 
     <!-- about the founder -->
     <div class="container founder">
-        <h2 class="title">Founder</h2>
-        <i class="fa fa-quote-left"></i>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id ligula quis tellus blandit porttitor sed ac
-            lorem. Phasellus rhoncus molestie augue, congue eleifend massa varius quis. Nunc tincidunt mollis mauris
-            quis rutrum. In nec egestas sem, quis commodo lacus. Nunc vel libero non lectus consequat sagittis vitae eu
-            tellus. Sed sed eros malesuada, venenatis magna luctus, iaculis nisl. Mauris quam risus, iaculis eu pretium
-            id, vulputate id enim. Suspendisse non vehicula est, non bibendum enim. Suspendisse mollis fringilla magna
-            vel faucibus. Mauris gravida lobortis dui a congue. Cras erat neque, sagittis a ultrices in, scelerisque
-            eget nisi. Vestibulum eleifend ullamcorper lectus, id consequat dolor vestibulum in. Morbi quis sem massa.
-            Sed erat lorem, dignissim nec mi nec, aliquam facilisis purus. Maecenas mollis nunc bibendum justo
-            tincidunt, eget malesuada augue cursus.</p>
-        <img src="img/founder.jpg" alt="">
-        <h3>Biswajeet Panda <br>C.E.O</h3>
+      <h2 class="title">Founder</h2>
+      <i class="fa fa-quote-left"></i>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id ligula
+        quis tellus blandit porttitor sed ac lorem. Phasellus rhoncus molestie
+        augue, congue eleifend massa varius quis. Nunc tincidunt mollis mauris
+        quis rutrum. In nec egestas sem, quis commodo lacus. Nunc vel libero non
+        lectus consequat sagittis vitae eu tellus. Sed sed eros malesuada,
+        venenatis magna luctus, iaculis nisl. Mauris quam risus, iaculis eu
+        pretium id, vulputate id enim. Suspendisse non vehicula est, non
+        bibendum enim. Suspendisse mollis fringilla magna vel faucibus. Mauris
+        gravida lobortis dui a congue. Cras erat neque, sagittis a ultrices in,
+        scelerisque eget nisi. Vestibulum eleifend ullamcorper lectus, id
+        consequat dolor vestibulum in. Morbi quis sem massa. Sed erat lorem,
+        dignissim nec mi nec, aliquam facilisis purus. Maecenas mollis nunc
+        bibendum justo tincidunt, eget malesuada augue cursus.
+      </p>
+      <img src="img/founder.jpg" alt="" />
+      <h3>Biswajeet Panda <br />C.E.O</h3>
     </div>
-
-
 
     <!-- footer -->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
-                    <h3>Download Our App</h3>
-                    <p>Download App for Android and ios mobile phone</p>
-                    <div class="app-logo">
-                        <img src="img/play-store.png" alt="">
-                        <img src="img/app-store.png" alt="">
-                    </div>
-                </div>
-                <div class="footer-col-2">
-                    <img src="img/logo.png" alt="">
-                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to The Many.
-                    </p>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Useful Links</h3>
-                    <ul>
-                        <li>Coupons</li>
-                        <li>Blog Post</li>
-                        <li>Return Policy</li>
-                        <li>Join Affiliate</li>
-                    </ul>
-                </div>
-                <div class="footer-col-4">
-                    <h3>Follow Us</h3>
-                    <ul>
-                        <li><i class="fa fa-facebook-square"></i> Facebook</li>
-                        <li><i class="fa fa-twitter-square"></i> Twitter</li>
-                        <li><i class="fa fa-instagram"></i> Intagram</li>
-                        <li><i class="fa fa-youtube-play"></i> YouTube</li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone</p>
+            <div class="app-logo">
+              <img src="img/play-store.png" alt="" />
+              <img src="img/app-store.png" alt="" />
             </div>
-            <hr>
-            <p class="copyright"><i class="fa fa-copyright"></i> Copyright 2020 - Biswajeet Panda . All rights reserved
+          </div>
+          <div class="footer-col-2">
+            <img src="img/logo.png" alt="" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to The Many.
             </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><i class="fa fa-facebook-square"></i> Facebook</li>
+              <li><i class="fa fa-twitter-square"></i> Twitter</li>
+              <li><i class="fa fa-instagram"></i> Intagram</li>
+              <li><i class="fa fa-youtube-play"></i> YouTube</li>
+            </ul>
+          </div>
         </div>
+        <hr />
+        <p class="copyright">
+          <i class="fa fa-copyright"></i> Copyright 2021 - Biswajeet Panda . All
+          rights reserved
+        </p>
+      </div>
     </div>
 
     <script>
-
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight = "0px"
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            }
-            else {
-                MenuItems.style.maxHeight = "0px";
-            }
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
         }
+      }
 
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
         }
+      }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
 
     <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
 
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
 
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
         }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
