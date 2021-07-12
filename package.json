@@ -1,0 +1,23 @@
+{
+  "name": "tsf-payment-gateway",
+  "version": "1.0.0",
+  "description": "This is a Payment Gateway App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biswa-bob/-GRIP-TSF.git"
+  },
+  "author": "Biswajeet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biswa-bob/-GRIP-TSF/issues"
+  },
+  "homepage": "https://github.com/Biswa-bob/-GRIP-TSF#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
